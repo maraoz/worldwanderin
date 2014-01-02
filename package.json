@@ -1,0 +1,14 @@
+{
+  "name": "worldwanderin",
+  "version": "0.0.0",
+  "description": "A bitcoin world exploration game",
+  "main": "server.js",
+  "repository": "",
+  "author": "Manuel Araoz <admin@proofofexistence.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14",
+    "bitcore": "=0.1.5"
+  }
+}
