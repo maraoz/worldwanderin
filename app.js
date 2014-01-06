@@ -9,7 +9,8 @@ var path = require('path');
 var async = require('async');
 var socketio = require('socket.io');
 var express = require('express');
-
+var Block = require('bitcore/Block').class();
+console.log(Block);
 
 var router = express();
 var server = http.createServer(router);
